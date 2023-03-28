@@ -1,9 +1,66 @@
+header{
+   margin-left: 400px;
+   font-size: 30px;
+}
 form{
-    width: 500px;
-    height: 100px;
-    padding: 10px;
-    margin: 200px;
-    background-color: red;
-    gap: 20px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+input{
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(127, 255, 212);
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+.radio {
     
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+#elements-container{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    background-color:rgba(127, 255, 212,.4);
+    border-radius: 10px;
+    padding-left: 15px;
+   
+
+
+}
+#elements-container button{
+    margin-left: 150px;
+    background-color: rgba(255, 0, 0,.4);
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+    
+}
+#elements-container:hover{
+    background-color: beige;
+
+}
+#elements-container button:hover{
+    background-color: red;
+    color: aliceblue;
+
+}
+footer{
+    margin-left: 1200px;
+    color: blue;
+}
+
+
+button:hover{
+    background-color: #adff2f;
 }
