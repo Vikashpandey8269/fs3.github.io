@@ -1,0 +1,19 @@
+.main{
+    margin-left: 500px;
+    margin-top: 200px;
+
+}
+
+#warning{
+    font-size: 30px;
+    color: blue;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+button:hover{
+    background-color: rgba(255, 0, 0,.5);
+}
