@@ -109,7 +109,7 @@ window.addEventListener('load',()=>{
       date_el.classList.add("footer");
 
       const p_tag=document.createElement('p');
-      p_tag.innerHTML="jan-30,2022,01:09";
+      p_tag.innerHTML="";
 
       date_el.appendChild(p_tag);
       
@@ -126,12 +126,12 @@ window.addEventListener('load',()=>{
 
       list_el.appendChild(task_el);
 
-        input.value="";
+        
 
         
         
        delete_btn.addEventListener('click',() =>{
-       list_el.remove();
+       task_el.remove();
     
 
        });
