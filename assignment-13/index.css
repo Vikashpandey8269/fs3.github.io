@@ -1,0 +1,21 @@
+header{
+    margin-left: 600px;
+    font-size: 40px;
+}
+#image{
+    width: 1000px;
+    height: 600px;
+    margin-left: 250px;
+}
+p{
+    width: 180px;
+    height: 70px;
+    font-size: 50px;
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+   padding-left: 50px;
+   padding-top: 10px;
+    
+
+}
