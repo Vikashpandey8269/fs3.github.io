@@ -1,3 +1,8 @@
-function onClick(){
-    document.getElementsByClassName("myDiv").style.background ="green";
+const btn = document.getElementById('btn');
+
+function myFunction() {
+  document.getElementById("myDiv").style.backgroundColor = "red";
+}
+function myFunction2() {
+  document.getElementById("myDiv").style.backgroundColor = "green";
 }
