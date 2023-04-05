@@ -1,4 +1,4 @@
-var timer=10;
+var timer;
 var ele = document.getElementById("countdown");
 
 
