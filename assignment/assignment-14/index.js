@@ -7,9 +7,9 @@ function validation(){
   var passwordcheck = /^(?=.*d)(?=.*[a-zA-Z]).{8,20}$/;
   
   if (passwordcheck.test(password)) {
-      document.getElementById("pass").innerHTML = "submit";
+      document.getElementById("pass").innerHTML = "true";
     } else {
-      document.getElementById("pass").innerHTML = "Password must be alphanumeric (@,_and-are alsoallowed) and between 8-20 characters";
+      document.getElementById("pass").innerHTML = "False";
       return false;
     }
     
