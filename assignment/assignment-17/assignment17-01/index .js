@@ -1,5 +1,5 @@
-document.getElementById("div1").innerHTML =
+document.getElementById("web").innerHTML =
 " <b>width :</b> " + window.innerWidth + "px<br>" +
 "<b>height :</b> " + window.innerHeight + "px";
-document.getElementById("div2").innerHTML = 
+document.getElementById("page").innerHTML = 
 "<b>URL :</b> " + window.location.href;
