@@ -1,5 +1,6 @@
 function getRandom(min,max){
     let x = Math.floor(Math.random()*(max- min))+min;
+     
 
     return x;
 
