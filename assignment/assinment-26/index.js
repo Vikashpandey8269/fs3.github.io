@@ -6,6 +6,15 @@ var books =[
 ];
 
 for (var a=0; a < books.length; a++){
-    document.write(  "title  :-  "+"  "+books[a].title +"  "+"author_name  :-"+" "+books[a].author_name +" "+books[a].age+"<br>" );
+    document.write(  "title  :-  "+"  "+books[a].title +"  "+"author_name  :-"+" "+books[a].author_name +"<br>" );
 }
 
+const { title , author_name}= books;
+console.log(title);
+console.log(author_name);
+
+
+const book = books.map((cvalue)=>{
+    return `title : ${cvalue.title} ` +`author_name: ${cvalue.author_name} `
+})
+console.log(book);
