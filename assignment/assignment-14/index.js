@@ -1,5 +1,5 @@
 function validation(){
- 
+  
   var password = document.getElementById("password").value;
  
 

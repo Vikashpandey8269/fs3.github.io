@@ -1,0 +1,58 @@
+**{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width: 100px;
+    height: 800px;
+    background-color:rgba(15, 1, 2, 0.97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    gap: 60px;
+    margin-left: 1000px;
+  padding-top: 30px;
+  cursor: pointer;
+    
+}
+.header{
+    width: 1450px;
+    line-height: 30px;
+    color: aliceblue;
+    
+
+}
+h1{
+   margin-left: 500px;
+   width: 800px;
+   font-size: 60px;
+   margin-top: 250px;
+   font-weight: 200;
+}
+p{
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+button{
+    margin-left: 700px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: blue;
+    border: 2px solid blue;
+    background-color: transparent;
+
+}
+
+
+#pi{
+    width: 300px;
+    height: 299px;
+    background-color: aqua;
+}
